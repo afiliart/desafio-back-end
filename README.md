@@ -13,7 +13,7 @@ Observação: Não esqueça de configurar corretamente os `status code` para cad
 **Request - POST : /courses**
 ```javascript
 {
-		id: String,
+	id: String,
     	name: String,
     	category: String,
     	img: String,
@@ -28,9 +28,9 @@ Observação: Não esqueça de configurar corretamente os `status code` para cad
 **Request - PUT : /courses**
 ```javascript
 {
-		id: String,
+	id: String,
     	name: String,
-		*atributo a ser atualizado: valor do atributo*
+	*atributo a ser atualizado: valor do atributo*
 }
 ```
 
@@ -39,7 +39,7 @@ Observação: Não esqueça de configurar corretamente os `status code` para cad
 **Request - DELETE : /courses**
 ```javascript
 {
-		id: String,
+	id: String,
     	name: String
 }
 ```
